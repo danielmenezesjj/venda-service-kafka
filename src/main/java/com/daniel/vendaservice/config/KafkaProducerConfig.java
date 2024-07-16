@@ -1,7 +1,6 @@
-package com.kipper.vendaservice.config;
+package com.daniel.vendaservice.config;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.kipper.vendaservice.dto.OrderDTO;
+import com.daniel.vendaservice.dto.OrderDTO;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.context.annotation.Bean;
@@ -31,3 +30,5 @@ public class KafkaProducerConfig {
         return new KafkaTemplate<>(producerFactory());
     }
 }
+
+

@@ -1,4 +1,4 @@
-package com.kipper.vendaservice;
+package com.daniel.vendaservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

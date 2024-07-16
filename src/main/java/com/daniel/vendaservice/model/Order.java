@@ -1,7 +1,7 @@
-package com.kipper.vendaservice.model;
+package com.daniel.vendaservice.model;
 
 
-import com.kipper.vendaservice.dto.OrderDTO;
+import com.daniel.vendaservice.dto.OrderDTO;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -21,7 +21,7 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
-    private Integer produtctId;
+    private String produtctId;
     private Integer quantity;
     private String paymentType;
 

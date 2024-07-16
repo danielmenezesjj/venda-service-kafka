@@ -1,8 +1,8 @@
-package com.kipper.vendaservice.services;
+package com.daniel.vendaservice.services;
 
 
-import com.kipper.vendaservice.model.Order;
-import com.kipper.vendaservice.repository.OrderRepository;
+import com.daniel.vendaservice.model.Order;
+import com.daniel.vendaservice.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package com.kipper.vendaservice.repository;
+package com.daniel.vendaservice.repository;
 
-import com.kipper.vendaservice.model.Order;
+import com.daniel.vendaservice.model.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface OrderRepository extends JpaRepository<Order, Integer> {

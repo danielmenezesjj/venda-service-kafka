@@ -1,9 +1,9 @@
-package com.kipper.vendaservice.controller;
+package com.daniel.vendaservice.controller;
 
 
-import com.kipper.vendaservice.dto.OrderDTO;
-import com.kipper.vendaservice.model.Order;
-import com.kipper.vendaservice.services.OrderServices;
+import com.daniel.vendaservice.model.Order;
+import com.daniel.vendaservice.dto.OrderDTO;
+import com.daniel.vendaservice.services.OrderServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
